@@ -1,0 +1,98 @@
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+body {
+    margin: 0;
+}
+header {
+    background-color: #06D6A0;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    padding: 4px 30px;
+}
+.title {
+    color: white;
+    font-weight: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.navigation {
+    list-style-type: none;
+    text-align: right;
+}
+li {
+    display: inline;
+    padding: 0 5px;
+}
+.meowcome {
+    background-color: #26547c;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    grid-template-rows: 95% 5%;
+    margin: 0 auto;
+}
+.catheads img {
+    max-width: 100%;
+}
+.greeting {
+    color: white;
+    font-size: 36px;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cattext {
+    background-color: #FFD166;
+    margin: 0px auto;
+    padding: 50px 20px 40px;
+}
+h2 {
+    margin: 0 auto;
+}
+.products {
+    background-color: #F2F2F2;
+    margin: 0px auto;
+    padding: 40px 20px;
+}
+.catsquares {
+    display: grid;
+    margin: 0 auto;
+    padding: 3px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.pic {
+    border: 3px solid black;
+    max-width: 100%;
+}
+.outro {
+    background-color: #26547c;
+    padding: 10px;
+}
+.outlinks {
+    text-align: center;
+}
+.otl {
+    color: salmon;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 70px;
+}
+.outrotext {
+    padding: 15px;
+}
+.end {
+    color: white;
+}
+footer {
+    background-color: #06D6A0;
+    text-align: right;
+    line-height: 3em;
+    font-size: 19px;
+    padding-right: 20px;
+}
